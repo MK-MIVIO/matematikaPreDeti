@@ -50,8 +50,8 @@
     </datalist>
 
     <div class="nastavenia">
-      {{ cisla[2] }}
-      {{ cisla[3] }}
+      <!-- {{ cisla[2] }}
+      {{ cisla[3] }} -->
       {{ hranicaZadani }}
     </div>
   </main>
