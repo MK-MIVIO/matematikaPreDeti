@@ -1,0 +1,69 @@
+/* #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Londrina Shadow', cursive;
+  color: red;
+  font-size: 200px;
+}
+/* header {
+} */
+main {
+  height: 100vh;
+  display: grid;
+  grid-auto-flow: row;
+  /* grid-template-rows: repeat(4, minmax(50px, 1fr)); */
+  grid-template-rows: auto 1fr 1fr auto;
+  place-items: center center;
+}
+
+.nadpis {
+  font-size: 6vw;
+  color: black;
+}
+.zadanie {
+  font-size: 15vw;
+}
+
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.vysledok {
+  font-size: 10vw;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  place-items: center center;
+  grid-gap: 50px;
+}
+
+.nastavenia {
+  font-size: 5vw;
+}
+
+.z {
+  color: black;
+}
+.c1 {
+  color: forestgreen;
+}
+.c2 {
+  color: coral;
+}
+.v {
+  background-color: lavenderblush;
+  padding: 20%;
+  margin: 5%;
+}
